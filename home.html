@@ -1,0 +1,663 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- them bootrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>Oze proxy</title>
+
+</head>
+
+<body>
+
+    <!-- phan header  -->
+    <header class="sticky-top" id="header">
+        <nav class="navbar navbar-main navbar-expand-lg navbar-light navbar-fixed-top navbar-sticky-shadow">
+            <div class="container">
+                <!-- logo icon -->
+                <img src="images/logo.jpg" height="40">
+                <!-- button o che do mobile -->
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+							 <i class="fa fa-bars" aria-hidden="true"></i>
+						</button>
+                <!-- div -->
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item d-flex justify-content-center">
+                            <a class="nav-link text-muted" aria-current="page" href="#">Trang chủ</a>
+                        </li>
+
+                        <li class="nav-item d-flex justify-content-center">
+                            <a class="nav-link text-muted" href="#">Dịch vụ</a>
+                        </li>
+
+                        <li class="nav-item  d-flex justify-content-center">
+                            <a class="nav-link text-muted" href="#">Giá</a>
+                        </li>
+
+                        <li class="nav-item  d-flex justify-content-center">
+                            <a class="nav-link text-muted" href="#" tabindex="-1" aria-disabled="true">Giới thiệu</a>
+                        </li>
+
+                        <li class="nav-item d-flex justify-content-center">
+                            <a class="nav-link text-muted" href="#" tabindex="-1" aria-disabled="true">Liên hệ</a>
+                        </li>
+
+                        <li class="nav-item d-flex justify-content-center" id="loginout">
+                            <button type="button" class="btn btn-primary" style="font-weight: 600;" onclick="window.location.href='login.html'">Đăng nhập</button>
+                            <button type="button" class="btn btn-primary" style=" margin-left: 10px; font-weight: 600;" onclick="window.location.href='signup.html'">Đăng ký</button>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+
+    <section id="home">
+        <div class="container mt-5 py-5" style="position: relative;">
+            <div class="row">
+                <div class="col-md-8 d-flex align-items-center justify-content-center">
+                    <div>
+                        <h1>Chào mừng bạn đến với
+                            <strong class="d-block text-primary font-weight-bold h1" data-v-e7e320fd="">
+		        						<font style="vertical-align: inherit;"><font style="vertical-align: inherit; font-weight: 600;">OZEPROXY</font></font>
+		        					</strong>
+                        </h1>
+                        <h6>Http/Socks5 IPV6 uy tín - chất lượng</h6>
+                        <h7>Thay đổi OS (TCP/IP Fingerprint), Băng thông tốc độ cao.</h7>
+                        <button class="btn btn-primary btn-lg mt-3" style="display: block;"> Bắt đầu ngay</button>
+                    </div>
+
+                </div>
+
+                <div class="col-md-4 mt-4 text">
+                    <img src="https://dataimpulse.com/wp-content/uploads/2022/06/img_1.png" class="img-fluid" width="400">
+                </div>
+                <img src="https://speedproxies.net/_nuxt/map_1400.8923607e.png" class="img-fluid" style="position: absolute; top:0;left: 0; width: 100%; height: 100%">
+            </div>
+
+        </div>
+    </section>
+
+
+    <section class="service">
+        <div class="container mt-4 py-5">
+            <div class="row pb-lg-4 pb-0 justify-content-center text-center">
+                <div class="col-lg-8 col-md-10">
+                    <h2 data-nosnippet="" class="mt-0 mt-lg-4 text-white" style="font-weight: 600">DỊCH VỤ</h2>
+                </div>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-md-6 mb-4">
+                    <div class="card bg-section-primary">
+                        <div class="container ">
+                            <div class="row align-items-center justify-content-center">
+                                <div class="col-md-3 p-3 text-center">
+                                    <img src="images/static.png" loading="lazy" width="80%" alt="Datacenter Proxy">
+                                </div>
+                                <div class="col-md-9 p-3">
+                                    <h4>IPV6 Tĩnh</h4>
+                                    <p>Proxy riêng tư và cố định được cấp cho mỗi người, gia hạn proxy thoải mái, tốc độ nhanh và ổn định.</p>
+                                    <br>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="col-md-6 mb-4">
+                    <div class="card bg-section-primary">
+                        <div class="container ">
+                            <div class="row align-items-center justify-content-center">
+                                <div class="col-md-3 p-3 text-center">
+                                    <img src="images/auto-rotation.png" loading="lazy" width="80%" alt="Datacenter Proxy">
+                                </div>
+                                <div class="col-md-9 p-3">
+                                    <h4>IPV6 Xoay tự động</h4>
+                                    <p> Tự động thay đổi IP mới mà không cần đổi proxy. Mỗi proxy xoay đều không giới hạn với hàng tỷ IP riêng tư. Thời gian tùy chỉnh (3 phút, 5 phút, 10 phút) hoặc liên hệ chúng tôi.</p>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="col-md-6 mb-4">
+                    <div class="card bg-section-primary">
+                        <div class="container ">
+                            <div class="row align-items-center justify-content-center">
+                                <div class="col-md-3 p-3 text-center">
+                                    <img src="images/api-rotation.png" loading="lazy" width="80%" alt="Datacenter Proxy">
+                                </div>
+                                <div class="col-md-9 p-3">
+                                    <h4>IPV6 Xoay sử dụng API</h4>
+                                    <p>IP sẽ giữ nguyên cho đến khi bạn gọi API để thay đổi, IP riêng tư mới sẽ được gán trực tiếp cho proxy của bạn mà không cần thay đổi proxy mới. Thời gian sử dụng trước khi đổi ít nhất 1 phút.</p>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="col-md-6 mb-4">
+                    <div class="card bg-section-primary">
+                        <div class="container ">
+                            <div class="row align-items-center justify-content-center">
+                                <div class="col-md-3 p-3 text-center">
+                                    <img src="images/scrape.png" loading="lazy" width="80%" alt="Datacenter Proxy">
+                                </div>
+                                <div class="col-md-9 p-3">
+                                    <h4>IPV6 Thu thập dữ liệu</h4>
+                                    <p>Nhiều dải subnet /29 lớn với hàng tỷ tỷ IP. Mỗi yêu cầu bạn gửi lên sẽ được gán cho một IP mới khác nhau. sẽ không còn lệnh chặn hoặc captcha. Tùy chỉnh mua (100->2000) threads.</p>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section>
+        <div class="container mt-4 py-5">
+            <div class="row pb-lg-4 pb-0 justify-content-center text-center">
+                <div class="col-lg-8 col-md-10">
+                    <h2 data-nosnippet="" class="mt-0 mt-lg-4 text-white" style="font-weight: 600">BẢNG GIÁ</h2>
+                </div>
+            </div>
+            <div class="row text-center mb-4">
+                <div class="col-md-3 mb-2">
+                    <div class="card bg-section-primary">
+                        <div class="card-header">
+                            <div class="m-3 text-center align-items-center bg-section-light rounded">
+                                <h4 class="m-0 p-2">IPV6 Tĩnh</h4>
+                            </div>
+                            <div class="mt-2 text-center mb-0 text-white">
+                                <span class="price"><span class="h6 text-secondary" style="font-size:0.9rem;">From</span>
+                                </span>
+                            </div>
+
+                            <div class="text-center mb-2 text-white"><strong class="h5">2000đ</strong><span class="h6 text-secondary">/Proxy/Tháng</span></div>
+                            <a href="#" class="btn btn-primary btn-lg" role="button" aria-disabled="true" style="width: 93%">Mua ngay</a>
+
+                        </div>
+                        <div class="card-body pt-2 mx-auto ">
+                            <div class="lists text-muted" style="display:inline-block;text-align:left;">
+                                <div class="list feature-list">Băng thông không giới hạn</div>
+                                <div class="list feature-list">Nhiều Subnet lớn</div>
+                                <div class="list feature-list">HTTP/SOCKS5 supported</div>
+                                <div class="list feature-list">Tốc độ: 100mbps-10gbps</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 mb-2">
+                    <div class="card bg-section-primary">
+                        <div class="card-header">
+                            <div class="m-3 text-center align-items-center bg-section-light rounded">
+                                <h4 class="m-0 p-2">Xoay tự động</h4>
+                            </div>
+                            <div class="mt-2 text-center mb-0 text-white">
+                                <span class="price"><span class="h6 text-secondary" style="font-size:0.9rem;">From</span>
+                                </span>
+                            </div>
+
+                            <div class="text-center mb-2 text-white"><strong class="h5">20.000đ</strong><span class="h6 text-secondary">/Proxy/Tháng</span></div>
+                            <a href="#" class="btn btn-primary btn-lg" role="button" aria-disabled="true" style="width: 93%">Mua ngay</a>
+
+                        </div>
+                        <div class="card-body pt-2 mx-auto ">
+                            <div class="lists text-muted" style="display:inline-block;text-align:left;">
+                                <div class="list feature-list">IP / Băng thông không giới hạn</div>
+                                <div class="list feature-list">Thời gian xoay 3-20 phút</div>
+                                <div class="list feature-list">HTTP/SOCKS5 supported</div>
+                                <div class="list feature-list">Xác thực user:pass hoặc IP</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 mb-2">
+                    <div class="card bg-section-primary">
+                        <div class="card-header">
+                            <div class="m-3 text-center align-items-center bg-section-light rounded">
+                                <h4 class="m-0 p-2">Xoay API</h4>
+                            </div>
+                            <div class="mt-2 text-center mb-0 text-white">
+                                <span class="price"><span class="h6 text-secondary" style="font-size:0.9rem;">From</span>
+                                </span>
+                            </div>
+
+                            <div class="text-center mb-2 text-white"><strong class="h5">20.000đ</strong><span class="h6 text-secondary">/Proxy/Tháng</span></div>
+                            <a href="#" class="btn btn-primary btn-lg" role="button" aria-disabled="true" style="width: 93%">Mua ngay</a>
+
+                        </div>
+                        <div class="card-body pt-2 mx-auto ">
+                            <div class="lists text-muted" style="display:inline-block;text-align:left;">
+                                <div class="list feature-list">IP / Băng thông không giới hạn</div>
+                                <div class="list feature-list">Xoay API</div>
+                                <div class="list feature-list">HTTP/SOCKS5 supported</div>
+                                <div class="list feature-list">Sử dụng tối thiểu 1 phút</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 mb-2">
+                    <div class="card bg-section-primary">
+                        <div class="card-header">
+                            <div class="m-3 text-center align-items-center bg-section-light rounded">
+                                <h4 class="m-0 p-2">Thu thập dữ liệu</h4>
+                            </div>
+                            <div class="mt-2 text-center mb-0 text-white">
+                                <span class="price"><span class="h6 text-secondary" style="font-size:0.9rem;">From</span>
+
+                                </span>
+                            </div>
+
+                            <div class="text-center mb-2 text-white"><strong class="h5">300.000đ</strong><span class="h6 text-secondary">/100 Threads/Tháng</span></div>
+                            <a href="#" class="btn btn-primary btn-lg" role="button" aria-disabled="true" style="width: 93%">Mua ngay</a>
+
+                        </div>
+                        <div class="card-body pt-2 mx-auto ">
+                            <div class="lists text-muted" style="display:inline-block;text-align:left;">
+                                <div class="list feature-list">Xoay mỗi request</div>
+                                <div class="list feature-list">Sử dụng theo số lượng luồng</div>
+                                <div class="list feature-list">HTTP/SOCKS5 supported</div>
+                                <div class="list feature-list">Xác thực user:pass hoặc IP</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section>
+        <div class="container mt-4 py-5">
+            <div class="row pb-lg-4 pb-0 justify-content-center text-center">
+                <div class="col-lg-8 col-md-10">
+                    <h2 data-nosnippet="" class="mt-0 mt-lg-4 text-white" style="font-weight: 600">TẠI SAO LỰA CHỌN CHÚNG TÔI?</h2>
+                </div>
+            </div>
+            <div class="row text-center mb-4">
+                <div class="col-md-4 text-center mb-4">
+                    <div class="card bg-section-primary">
+                        <div style="color: #68AFFF">
+                            <div class="m-3">
+                                <i class="bi bi-gem mx-1 lead"></i>
+                            </div>
+                            <h5 style="font-weight: 600">Hiệu suất cao</h5>
+                        </div>
+                        <p class="mb-3">Hoạt động tuyệt vời với phần mềm đa luồng và bots.</p>
+                    </div>
+                </div>
+
+                <div class="col-md-4 text-center  mb-4">
+                    <div class="card bg-section-primary">
+                        <div style="color: #FFA44B">
+                            <div class="m-3">
+                                <i class="bi bi-shield-lock-fill mx-1 lead"></i>
+                            </div>
+                            <h5 style="font-weight: 600">Xác thực</h5>
+                        </div>
+                        <p class="mb-3">Xác thực theo IPsử dụng Username: password.</p>
+                    </div>
+                </div>
+
+                <div class="col-md-4 text-center  mb-4">
+                    <div class="card bg-section-primary">
+                        <div style="color: #EF6968">
+                            <div class="m-3">
+                                <i class="bi bi-hourglass-split mx-1 lead"></i>
+                            </div>
+                            <h5 style="font-weight: 600">Thời gian hoạt động</h5>
+                        </div>
+                        <p class="mb-3">Đảm bảo thời gian hoạt động của proxy trên 95%.</p>
+                    </div>
+                </div>
+
+
+
+                <div class="col-md-4 text-center  mb-4">
+                    <div class="card bg-section-primary">
+                        <div style="color: #0ED2D1">
+                            <div class="m-3">
+                                <i class="bi bi-arrow-repeat mx-1 lead"></i>
+                            </div>
+                            <h5 style="font-weight: 600">IP tĩnh và động</h5>
+                        </div>
+                        <p class="mb-3">Chúng tôi cung cấp IP tĩnh và động để đáp ứng nhu cầu khác nhau của khách hàng.</p>
+                    </div>
+                </div>
+
+                <div class="col-md-4 text-center  mb-4">
+                    <div class="card bg-section-primary">
+                        <div style="color: #c66fa7">
+                            <div class="m-3">
+                                <i class="bi bi-database-fill-up mx-1 lead"></i>
+                            </div>
+                            <h5 style="font-weight: 600">Nhiều subnet</h5>
+                        </div>
+                        <p class="mb-3">Chúng tôi cung cấp vị trí khác nhau - Máy chủ khác nhau - Subnet IPV6 khác nhau.</p>
+                    </div>
+                </div>
+
+                <div class="col-md-4 text-center  mb-4">
+                    <div class="card bg-section-primary">
+                        <div style="color: #ccb033">
+                            <div class="m-3">
+                                <i class="bi bi-eye-slash-fill mx-1 lead"></i>
+                            </div>
+                            <h5 style="font-weight: 600">Ẩn danh cao</h5>
+                        </div>
+                        <p class="mb-3">Chúng tôi sử dụng công nghệ hiện đại nhất để ẩn danh IP thật và ẩn danh TCP/IP theo hệ điều hành của bạn.</p>
+                    </div>
+                </div>
+
+                <div class="col-md-4 text-center  mb-4">
+                    <div class="card bg-section-primary">
+                        <div style="color: #ccb033">
+                            <div class="m-3">
+                                <i class="bi bi-calendar-week mx-1 lead"></i>
+                            </div>
+                            <h5 style="font-weight: 600">Gia hạn</h5>
+                        </div>
+                        <p class="mb-3">Bạn có thể gia hạn proxy để sử dụng hàng tuần, hàng tháng, hàng năm.</p>
+                    </div>
+                </div>
+
+                <div class="col-md-4 text-center  mb-4">
+                    <div class="card bg-section-primary">
+                        <div style="color: #ccb033">
+                            <div class="m-3">
+                                <i class="bi bi-bar-chart-steps mx-1 lead"></i>
+                            </div>
+                            <h5 style="font-weight: 600">Số lượng proxy</h5>
+                        </div>
+                        <p class="mb-3">Chúng tôi có rất nhiều proxy và bạn có thể mua với số lượng không giới hạn.</p>
+                    </div>
+                </div>
+
+                <div class="col-md-4 text-center  mb-4">
+                    <div class="card bg-section-primary">
+                        <div style="color: #ccb033">
+                            <div class="m-3">
+                                <i class="bi bi-file-earmark-lock2 mx-1 lead"></i>
+                            </div>
+                            <h5 style="font-weight: 600">Proxy dùng riêng</h5>
+                        </div>
+                        <p class="mb-3">Với nhiều dải subnet lớn với hàng tỷ IP, chúng tôi đảm bảo mỗi khách hàng sẽ là 1 IP riêng biệt.</p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div class="container mt-4 py-5">
+            <div class="row pb-lg-4 pb-0 justify-content-center text-center">
+                <div class="col-lg-8 col-md-10">
+                    <h2 data-nosnippet="" class="mt-0 mt-lg-4 text-white" style="font-weight: 600">CÂU HỎI THƯỜNG GẶP</h2>
+                </div>
+            </div>
+            <div class="row">
+                <div class="accordion accordion-flush" id="accordionFlushExample">
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="flush-headingOne">
+                            <button class="accordion-button bg-section-primary collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+	                      Cách sử dụng IPV6 tĩnh?
+	                    </button>
+                        </h2>
+                        <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                            <div class="accordion-body bg-section-light">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the first item's accordion body.</div>
+                        </div>
+                    </div>
+
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="flush-headingTwo">
+                            <button class="accordion-button bg-section-primary collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+	                      Cách sử dụng IPV6 xoay tự động?
+	                    </button>
+                        </h2>
+                        <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+                            <div class="accordion-body bg-section-light">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the second item's accordion body. Let's imagine this being filled with some actual content.</div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="flush-headingThree">
+                            <button class="accordion-button bg-section-primary collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+	                      Cách sử dụng IPV6 xoay thông qua API?
+	                    </button>
+                        </h2>
+                        <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+                            <div class="accordion-body bg-section-light">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the third item's accordion body. Nothing more exciting happening here in terms of content, but just filling
+                                up the space to make it look, at least at first glance, a bit more representative of how this would look in a real-world application.</div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="flush-headingThree">
+                            <button class="accordion-button bg-section-primary collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+	                        Cách nạp tiền vào tài khoản?
+	                      </button>
+                        </h2>
+                        <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+                            <div class="accordion-body bg-section-light">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the third item's accordion body. Nothing more exciting happening here in terms of content, but just filling
+                                up the space to make it look, at least at first glance, a bit more representative of how this would look in a real-world application.</div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="flush-headingThree">
+                            <button class="accordion-button bg-section-primary collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+	                        Có bất kỳ giới hạn hoặc hạn chế băng thông không?
+	                      </button>
+                        </h2>
+                        <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+                            <div class="accordion-body bg-section-light">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the third item's accordion body. Nothing more exciting happening here in terms of content, but just filling
+                                up the space to make it look, at least at first glance, a bit more representative of how this would look in a real-world application.</div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="flush-headingThree">
+                            <button class="accordion-button bg-section-primary collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+	                        Chính sách sử dụng? Chúng tôi có được sử dụng cho vấn đề bất hợp pháp hay không?
+	                      </button>
+                        </h2>
+                        <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+                            <div class="accordion-body bg-section-light">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the third item's accordion body. Nothing more exciting happening here in terms of content, but just filling
+                                up the space to make it look, at least at first glance, a bit more representative of how this would look in a real-world application.</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div class="container mt-4 py-5">
+            <div class="row pb-lg-4 pb-0 justify-content-center text-center">
+                <div class="col-lg-8 col-md-10">
+                    <h2 data-nosnippet="" class="mt-0 mt-lg-4 text-white" style="font-weight: 600">TRƯỜNG HỢP SỬ DỤNG</h2>
+                </div>
+            </div>
+            <div class="row text-center justify-content-center">
+                <div class="col-md-4 py-3 ">
+                    <div class="card bg-section-primary">
+                        <div class="py-3">
+                            <img alt="sales intelligence" src="images/sale.png" class="card-img-top" style="height: 100px; width: auto;">
+                        </div>
+
+                        <h4>Bán Hàng</h4>
+                        <i class="py-3">Biết khi nào một nhà bán lẻ thay đổi giá</i>
+                    </div>
+                </div>
+
+                <div class="col-md-4 py-3 ">
+                    <div class="card bg-section-primary">
+                        <div class="py-3">
+                            <img alt="sales intelligence" src="images/seo.png" class="card-img-top" style="height: 100px; width: auto;">
+                        </div>
+
+                        <h4>Tiện ích SEO</h4>
+                        <i class="py-3">Tối ưu hóa chiến lược SEO và xếp hạng của bạn</i>
+                    </div>
+                </div>
+
+                <div class="col-md-4 py-3 ">
+                    <div class="card bg-section-primary">
+                        <div class="py-3">
+                            <img alt="sales intelligence" src="images/crawl.png" class="card-img-top" style="height: 100px; width: auto;">
+                        </div>
+
+                        <h4>Quét dữ liệu website</h4>
+                        <i class="py-3">Khai thác/thu thập dữ liệu mà không có bất kỳ hạn chế hoặc giới hạn nào.</i>
+                    </div>
+                </div>
+
+                <div class="col-md-4 py-3 ">
+                    <div class="card bg-section-primary">
+                        <div class="py-3">
+                            <img alt="sales intelligence" src="images/social.png" class="card-img-top" style="height: 100px; width: auto;">
+                        </div>
+
+                        <h4>Mạng xã hội</h4>
+                        <i class="py-3">Tạo và nuôi hàng ngàn tài khoản khác nhau mà không bị khóa.</i>
+                    </div>
+                </div>
+
+                <div class="col-md-4 py-3 ">
+                    <div class="card bg-section-primary">
+                        <div class="py-3">
+                            <img alt="sales intelligence" src="images/ads.png" class="card-img-top" style="height: 100px; width: auto;">
+                        </div>
+
+                        <h4>Quảng cáo</h4>
+                        <i class="py-3">Xem cách quảng cáo được phân phối.</i>
+                    </div>
+                </div>
+
+                <div class="col-md-4 py-3 ">
+                    <div class="card bg-section-primary">
+                        <div class="py-3">
+                            <img alt="sales intelligence" src="images/global.png" class="card-img-top" style="height: 100px; width: auto;">
+                        </div>
+
+                        <h4>Hãy cho chúng tôi biết?</h4>
+                        <i class="py-3">Các trường hợp sử dụng proxy luôn được mở rộng.</i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section>
+        <div class="container mt-4 py-5">
+            <div class="row pb-lg-4 pb-0 justify-content-center text-center">
+                <div class="col-lg-8 col-md-10">
+                    <h2 data-nosnippet="" class="mt-0 mt-lg-4 text-white" style="font-weight: 600">ĐÁNH GIÁ VỀ CHÚNG TÔI</h2>
+                </div>
+            </div>
+            <div class="row ">
+                <div class="col-md-3 text-center">
+                    <div class="card bg-section-primary p-3">
+                        <div class="py-2">
+                            <img src="images/client.jpg" width="50" alt="" style="border-radius: 50%;">
+                        </div>
+                        <h5>Tinh Nguyen</h5>
+                        <h8>CEO-AKIGAN</h8>
+                        <p>Tôi đã sử dụng rất nhiều proxy của các bên nhưng tôi thấy proxy của OZEPROXY mang lại cho tôi trải nghiệm tốt nhất.</p>
+                    </div>
+                </div>
+
+                <div class="col-md-3 text-center">
+                    <div class="card bg-section-primary p-3">
+                        <div class="py-2">
+                            <img src="images/client.jpg" width="50" alt="" style="border-radius: 50%;">
+                        </div>
+                        <h5>Team Cook</h5>
+                        <h8>CEO-Apple</h8>
+                        <p>Chỉ cần 1 cú click là tôi đã thay đổi được proxy thông qua API mà không gặp bất kể một gián đoạn nào cả.</p>
+                    </div>
+                </div>
+
+                <div class="col-md-3 text-center">
+                    <div class="card bg-section-primary p-3">
+                        <div class="py-2">
+                            <img src="images/client.jpg" width="50" alt="" style="border-radius: 50%;">
+                        </div>
+                        <h5>John candy</h5>
+                        <h8>CEO-Ahola</h8>
+                        <p>Dịch vụ proxy thu thập dữ liệu đã giúp ích cho chúng tôi rất nhiều, nó giúp chúng tôi tiết kiệm thời gian và chi phí hoạt động.</p>
+                    </div>
+                </div>
+
+                <div class="col-md-3 text-center">
+                    <div class="card bg-section-primary p-3">
+                        <div class="py-2">
+                            <img src="images/client.jpg" width="50" alt="" style="border-radius: 50%;">
+                        </div>
+                        <h5>Kim Nguyen</h5>
+                        <h8>Teach Leads</h8>
+                        <p>Với một số phần mềm không hỗ trợ đổi API thông qua API. thì proxy xoay tự động đã cho thấy sự hữu ích của nó.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="bg-section-primary">
+        <div class="container mt-4 py-4 align-items-center">
+            <div class="row">
+                <div class="col-md-6">
+                    <img class="pointer-events-none" loading="lazy" alt="Logo" src="images/logo.jpg" id="footer-logo" style="height:40px;">
+                    <p class="mt-3 mb-3 text-xs opacity-8 pr-lg-0" data-v-ea27db5f=""> Vinsmart City, Tây Mỗ, Đại Mỗ, Hà Nội </p>
+                    <a href="#"><i class="bi bi-facebook mx-1 lead"></i></a>
+                    <a href="#"><i class="bi bi-telegram mx-1 lead"></i></a>
+                    <a href="#"><i class="bi bi-youtube mx-1 lead"></i></a>
+                    <p class="mb-0">Copyright © 2022 Ozeproxy</p>
+                </div>
+
+                <div class="col-md-3">
+                    <h6>
+                        SERVICES
+                    </h6>
+                    <ul>
+                        <li><a href="">Static IPV6</a></li>
+                        <li><a href="">Auto Rotation</a></li>
+                        <li><a href="">API Rotation</a></li>
+                        <li><a href="">Scrap</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-3">
+                    <h6>
+                        ĐIỀU KHOẢN
+                    </h6>
+                    <ul>
+                        <li><a href="">Điều khoản và điều kiện</a></li>
+                        <li><a href="">Chính sách bảo mật</a></li>
+                        <li><a href="">Chính sách hoàn tiền</a></li>
+                    </ul>
+                </div>
+            </div>
+
+        </div>
+    </footer>
+    <script src="javascript.js"></script>
+
+</body>
+
+</html>
