@@ -252,6 +252,10 @@ p {
     font-size: 1.5rem;
 }
 
+.btn-extend{
+    background-color: red !important;
+}
+
 .navigation.active{
     left: 0px;
 }
