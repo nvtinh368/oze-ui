@@ -12,50 +12,90 @@
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
     <link rel="stylesheet" type="text/css" href="style.css">
-    <title>Oze proxy</title>
+    <title>Dashboard</title>
 
 </head>
 
 <body>
-    <section>
-        <div class="containerm">
-            <div class="row justify-content-center mt-5">
-                <div class="col-md-4 p-5">
-                    <div class="bg-section-primary p-3 rounded">
-                        <h4 class="text-center">ĐĂNG NHẬP</h4>
-                        <form action="">
-                            <div class="form-group">
-                                <label>Số điện thoại <span class="login-danger ">*</span></label>
-                                <input class="form-control " type="text" placeholder="Nhập số điện thoại">
-                                <span class="profile-views"><i class="bi bi-person-circle "></i></span>
-                            </div>
-                            <div class="form-group">
-                                <label>Mật khẩu <span class="login-danger ">*</span></label>
-                                <input class="form-control " type="text" placeholder="Nhập mật khẩu">
-                                <span class="profile-views"><i class="bi bi-eye-slash-fill"></i></span>
-                            </div>
-
-                            <div class="forgotpass">
-                                <div class="remember-me">
-                                    <label class="custom_check mr-2 mb-0 d-inline-flex remember-me"> Remember me
-                                <input type="checkbox" name="radio">
-                                <span class="checkmark"></span>
-                                </label>
-                                </div>
-                                <a href="forgot-password.html">Forgot Password?</a>
-                            </div>
-
-                            <div class="buttons-w"><button class="btn btn-primary btn-block" id="Login" type="button">Đăng Nhập</button>
-                                <a class="btn btn-danger btn-block" href="signup.html" type="button">Đăng Ký</a>
-                            </div>
-                        </form>
-                    </div>
-                </div>
-
-            </div>
+    
+    <section class="sidebar">
+        <div class="navigation">
+            <img class="m-1 p-2" src="images/logo.jpg" alt="" height="50">
+            <ul>
+                <li>
+                    
+                    <a href="">
+                       <span style="height: 15px;width: 2px; background-color: #009ef7; display: inline-block; margin-right: 3px;"></span>
+                        <span class="icon"><i class="fas fa-shopping-cart me-2"></i></span>
+                        <span class="title">Đặt hàng</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="">
+                        <span class="icon"><i class="fas fa-th-list me-2"></i></span>
+                        <span class="title">Quản lý đơn hàng</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="">
+                        <span class="icon"><i class="fas fa-credit-card me-2"></i></span>
+                        <span class="title">Nạp tiền</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="">
+                        <span class="icon"><i class="fas fa-link me-2"></i></span>
+                        <span class="title">Tích hợp API</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="">
+                        <span class="icon"><i class="fas fa-chalkboard-teacher me-2"></i></span>
+                        <span class="title">Hướng dẫn sử dụng</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="">
+                        <span class="icon"><i class="fas fa-headset me-2"></i></span>
+                        <span class="title">Hỗ trợ</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="">
+                        <span class="icon"><i class="fas fa-tools me-2"></i></span>
+                        <span class="title">Cài đặt</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="">
+                        <span class="icon"><i class="fas fa-power-off me-2"></i></span>
+                        <span class="title">Đăng xuất</span>
+                    </a>
+                </li>
+            </ul>
         </div>
     </section>
+
+    <section class="main-body">
+        <div class="topbar">
+            <div class="toggle" >
+                <a class="mobile_btn" id="mobile_btn">
+                     <i class="fas fa-bars" style="color: white;"></i>
+                 </a>
+            </div>
+            <div class="profile">
+                 <span style="color: #009ef7;">100,000,000 <u>đ</u></span>
+                 <img class="rounded-circle" src="images/client.jpg" width="31" alt="Soeng" >
+            </div>
+        </div>
+
+        <div class="main-dashboard" style="height: 1200px;">
+            xin chào anh em nhé
+        </div>
+    </section>
+
 
     <script src="javascript.js "></script>
 </body>
