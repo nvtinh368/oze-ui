@@ -18,7 +18,7 @@
 
 </head>
 
-<body onload="loadOrder(1)">
+<body>
     
     <section class="sidebar">
         <div class="navigation">
@@ -101,74 +101,33 @@
         <div class="main-dashboard">
             <div  style="margin: 20px;">
                 <div class="container-fluid p-3 bg-section-light rounded">
+                    <h4 class="text-center">CÀI ĐẶT</h4>
                     <div class="row">
-                        <div class="col-12">
-                            <div class=" rounded p-2" style="overflow-x: auto;white-space: nowrap;">
-                                <h4 class="text-center">DANH SÁCH ĐẶT HÀNG</h4>
-                                <table class="table text-center rounded mt-3" style="border: 1px solid gray ; color:white;">
-                                    <thead>
-                                        <th>Order ID</th>
-                                        <th>Số lượng</th>
-                                        <th>Quốc gia</th>
-                                        <th>Ngày mua</th>
-                                        <th>Ngày hết hạn</th>
-                                        <th>Chi tiết</th>
-                                    </thead>
-                                    <tbody>
-                                        <th>528254545</th>
-                                        <th>1000</th>
-                                        <th>VN</th>
-                                        <th>23-5-2023</th>
-                                        <th>23-6-2023</th>
-                                        <th>
-                                            <a class="btn btn-primary" href="#" role="button">Chi tiết</a>
-                                            <a class="btn btn-extend" href="#" role="button">Gia hạn</a>
-                                        </th>
-                                    </tbody>
-                                    <tbody>
-                                        <th>528254545</th>
-                                        <th>1000</th>
-                                        <th>VN</th>
-                                        <th>23-5-2023</th>
-                                        <th>23-6-2023</th>
-                                        <th>
-                                            <a class="btn btn-primary" href="#" role="button">Chi tiết</a>
-                                            <a class="btn btn-extend" href="#" role="button">Gia hạn</a>
-                                        </th>
-                                    </tbody>
-                                    <tbody>
-                                        <th>528254545</th>
-                                        <th>1000</th>
-                                        <th>VN</th>
-                                        <th>23-5-2023</th>
-                                        <th>23-6-2023</th>
-                                        <th>
-                                            <a class="btn btn-primary" href="#" role="button">Chi tiết</a>
-                                            <a class="btn btn-extend" href="#" role="button">Gia hạn</a>
-                                        </th>
-                                    </tbody>
-                                    <tbody>
-                                        <th>528254545</th>
-                                        <th>1000</th>
-                                        <th>VN</th>
-                                        <th>23-5-2023</th>
-                                        <th>23-6-2023</th>
-                                        <th>
-                                            <a class="btn btn-primary" href="#" role="button">Chi tiết</a>
-                                            <a class="btn btn-extend" href="#" role="button">Gia hạn</a>
-                                        </th>
-                                    </tbody>
-                                </table>
+                        <div class="col-md-6 mt-5 border p-3">
+                            <h6 class="text-center"><b>Thay đổi mật khẩu</b></h6>
+                            <div class="form-group">
+                                <label>Mật khẩu cũ:</label>
+                                <input class="rounded" type="text" name="" placeholder="nhập mật khẩu cũ">
+                            </div>
+                            <div class="form-group">
+                                <label>Mật khẩu mới:</label>
+                                <input class="rounded" type="text" name="" placeholder="nhập mật khẩu mới">
+                            </div>
+                            <div class="form-group">
+                                <label>Nhập lại mật khẩu mới:</label>
+                                <input class="rounded" type="text" name="" placeholder="nhập lại mật khẩu mới">
+                            </div>
+                            <button type="button" class="btn btn-primary mt-2" style="width: 96% !important;">Thay đổi</button>
+                        </div>
+                        <div class="col-md-6 mt-5 border p-3">
+                            <h6 class="text-center"><b>Thay đổi mã token</b></h6>
+                            <div class="form-group">
+                                <label>Mã Token:</label>
+                                <input class="rounded" type="text" name="" placeholder="nhập mật khẩu cũ" value="jghjgsdfhjghjdsfghjdhjsfghjdsfghjhjdsgfhjhjdsfghjdsf" readonly>
+                                <button type="button" class="btn btn-primary mt-2" style="width: 96% !important;">Thay đổi</button>
                             </div>
                         </div>
                     </div>
-
-                   <div class="row align-items-center text-center">
-                       <div class="col">
-                           <div id="paging" class="text-center"></div>
-                       </div>
-                   </div>
-                   
                 </div>
 
             </div>
@@ -176,11 +135,11 @@
         </div>
     </section>
 
-   <!--  <script src="https://cdn.jsdelivr.net/npm/jquery@3.7.0/dist/jquery.min.js"></script> -->
-    <script src="pagination.js"></script>
-    <script src="javascript.js "></script>
-    
-    
+
+    <script type="text/javascript" src="javascript.js "></script>
+    <script type="text/javascript" src="pagination.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.7.0/dist/jquery.min.js"></script>
+
 </body>
 
 </html>

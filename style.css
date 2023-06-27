@@ -173,6 +173,10 @@ p {
     border: 1px solid white;
 }
 
+.form-group span i{
+  color: white;
+}
+
 .form-control {
     border: 1px solid #302f2f;
     box-shadow: none;
