@@ -18,7 +18,7 @@
 
 </head>
 
-<body>
+<body onload="loadOrder(1)">
     
     <section class="sidebar">
         <div class="navigation">
@@ -103,7 +103,7 @@
                 <div class="container-fluid p-3 bg-section-light rounded">
                     <div class="row">
                         <div class="col-12">
-                            <div class=" rounded p-2">
+                            <div class=" rounded p-2" style="overflow-x: auto;white-space: nowrap;">
                                 <h4 class="text-center">DANH SÁCH ĐẶT HÀNG</h4>
                                 <table class="table text-center rounded mt-3" style="border: 1px solid gray ; color:white;">
                                     <thead>
@@ -147,10 +147,27 @@
                                             <a class="btn btn-extend" href="#" role="button">Gia hạn</a>
                                         </th>
                                     </tbody>
+                                    <tbody>
+                                        <th>528254545</th>
+                                        <th>1000</th>
+                                        <th>VN</th>
+                                        <th>23-5-2023</th>
+                                        <th>23-6-2023</th>
+                                        <th>
+                                            <a class="btn btn-primary" href="#" role="button">Chi tiết</a>
+                                            <a class="btn btn-extend" href="#" role="button">Gia hạn</a>
+                                        </th>
+                                    </tbody>
                                 </table>
                             </div>
                         </div>
                     </div>
+
+                   <div class="row align-items-center text-center">
+                       <div class="col">
+                           <div id="paging" class="text-center"></div>
+                       </div>
+                   </div>
                    
                 </div>
 
@@ -159,8 +176,11 @@
         </div>
     </section>
 
-
+   <!--  <script src="https://cdn.jsdelivr.net/npm/jquery@3.7.0/dist/jquery.min.js"></script> -->
+    <script src="pagination.js"></script>
     <script src="javascript.js "></script>
+    
+    
 </body>
 
 </html>

@@ -69,6 +69,24 @@ a.text-muted:hover {
     background-color: #2a3d53!important;
 }
 
+#paging ul {
+    display: flex;
+    list-style: none;
+    margin: 0 auto;
+}
+
+#paging .paginationjs-page, .paginationjs-ellipsis, .paginationjs-prev, .paginationjs-next{
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    border: 1px solid gray;
+    text-align: center;
+}
+#paging .active{
+    background-color: #c1a2a22e;
+    color: white;
+}
+
 .btn {
     /* background-color: transparent;*/
     border: 1px solid transparent;
