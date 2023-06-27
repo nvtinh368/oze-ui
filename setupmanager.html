@@ -20,55 +20,41 @@
 
 <body>
     
-    <section class="sidebar">
+   <section class="sidebar">
         <div class="navigation">
             <img class="m-1 p-2" src="images/logo.jpg" alt="" height="50">
             <ul>
                 <li>
                     
-                    <a href="order.html">
+                    <a href="proxymanager.html">
                        <span style="height: 15px;width: 2px; background-color: #253649; display: inline-block; margin-right: 3px;"></span>
                         <span class="icon"><i class="fas fa-shopping-cart me-2"></i></span>
-                        <span class="title">Đặt hàng</span>
+                        <span class="title">Quản lý proxy</span>
                     </a>
                 </li>
                 <li>
-                    <a href="ordermanager.html">
+                    <a href="orderadminmanager.html">
                          <span style="height: 15px;width: 2px; background-color: #009ef7; display: inline-block; margin-right: 3px;"></span>
                         <span class="icon"><i class="fas fa-th-list me-2"></i></span>
-                        <span class="title">Quản lý đơn hàng</span>
+                        <span class="title">Quản lý order</span>
                     </a>
                 </li>
                 <li>
-                    <a href="payment.html">
+                    <a href="usermanager.html">
+                         <span style="height: 15px;width: 2px; background-color: #009ef7; display: inline-block; margin-right: 3px;"></span>
+                        <span class="icon"><i class="fas fa-th-list me-2"></i></span>
+                        <span class="title">Quản lý người dùng</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="paymentmanager.html">
                          <span style="height: 15px;width: 2px; background-color: #253649; display: inline-block; margin-right: 3px;"></span>
                         <span class="icon"><i class="fas fa-credit-card me-2"></i></span>
-                        <span class="title">Nạp tiền</span>
+                        <span class="title">Quản lý giao dịch</span>
                     </a>
                 </li>
                 <li>
-                    <a href="">
-                         <span style="height: 15px;width: 2px; background-color: #253649; display: inline-block; margin-right: 3px;"></span>
-                        <span class="icon"><i class="fas fa-link me-2"></i></span>
-                        <span class="title">Tích hợp API</span>
-                    </a>
-                </li>
-                <li>
-                    <a href="">
-                         <span style="height: 15px;width: 2px; background-color: #253649; display: inline-block; margin-right: 3px;"></span>
-                        <span class="icon"><i class="fas fa-chalkboard-teacher me-2"></i></span>
-                        <span class="title">Hướng dẫn sử dụng</span>
-                    </a>
-                </li>
-                <li>
-                    <a href="support.html">
-                         <span style="height: 15px;width: 2px; background-color: #253649; display: inline-block; margin-right: 3px;"></span>
-                        <span class="icon"><i class="fas fa-headset me-2"></i></span>
-                        <span class="title">Hỗ trợ</span>
-                    </a>
-                </li>
-                <li>
-                    <a href="setup.html">
+                    <a href="setupmanager.html">
                          <span style="height: 15px;width: 2px; background-color: #253649; display: inline-block; margin-right: 3px;"></span>
                         <span class="icon"><i class="fas fa-tools me-2"></i></span>
                         <span class="title">Cài đặt</span>
@@ -101,28 +87,33 @@
         <div class="main-dashboard">
             <div  style="margin: 20px;">
                 <div class="container-fluid p-3 bg-section-light rounded">
+                    <h4 class="text-center">CÀI ĐẶT</h4>
                     <div class="row">
-                        <div class="col-12">
-                            <div class=" rounded p-2">
-                                <h4 class="text-center">NẠP TIỀN VÀO TÀI KHOẢN</h4>
-                                <p> <b>Cách 1</b>: Quý khách sử dụng Internet Banking quét QR-code bên dưới và nhập số tiền muốn nạp </p>
-                                <p> <b>Cách 2</b>: Quý khách có thể chuyển khoản theo nội dung bên cạnh QR-code </p>
-                                <p><i><b style="color: red;"> Hệ thống sẽ tự động cập nhật trong vòng một phút (F5 để làm mới). Nếu quá 5 phút mà không thấy cập nhật xin hãy vui lòng liên hệ ADMIN</b></i> </p>
+                        <div class="col-md-6 mt-5 border p-3">
+                            <h6 class="text-center"><b>Thay đổi mật khẩu</b></h6>
+                            <div class="form-group">
+                                <label>Mật khẩu cũ:</label>
+                                <input class="rounded" type="text" name="" placeholder="nhập mật khẩu cũ">
+                            </div>
+                            <div class="form-group">
+                                <label>Mật khẩu mới:</label>
+                                <input class="rounded" type="text" name="" placeholder="nhập mật khẩu mới">
+                            </div>
+                            <div class="form-group">
+                                <label>Nhập lại mật khẩu mới:</label>
+                                <input class="rounded" type="text" name="" placeholder="nhập lại mật khẩu mới">
+                            </div>
+                            <button type="button" class="btn btn-primary mt-2" style="width: 96% !important;">Thay đổi</button>
+                        </div>
+                        <div class="col-md-6 mt-5 border p-3">
+                            <h6 class="text-center"><b>Thay đổi mã token</b></h6>
+                            <div class="form-group">
+                                <label>Mã Token:</label>
+                                <input class="rounded" type="text" name="" placeholder="nhập mật khẩu cũ" value="jghjgsdfhjghjdsfghjdhjsfghjdsfghjhjdsgfhjhjdsfghjdsf" readonly>
+                                <button type="button" class="btn btn-primary mt-2" style="width: 96% !important;">Thay đổi</button>
                             </div>
                         </div>
                     </div>
-                    <div class="row justify-content-center align-items-center">
-                        <div class="col-md-2">
-                            <img src="https://img.vietqr.io/image/vietinbank-108000439678-qr_only.jpg?amount=0&amp;accountName=NGUYEN MANH HUNG&amp;addInfo=sentence azzlangtu18pq touch" class="mb-5" height="200">
-                        </div>
-                        <div class="col-md-2">
-                            <p>Nội dung chuyển khoản: ZLANGTU19</p>
-                            <p>Tên chủ tài khoản: NGUYEN VAN TINH</p>
-                            <p>Số tài khoản: 0387131822</p>
-                            <p>Ngân hàng: MBBank</p>
-                        </div>
-                    </div>
-                   
                 </div>
 
             </div>
@@ -132,7 +123,8 @@
 
 
     <script type="text/javascript" src="javascript.js "></script>
-    
+    <script type="text/javascript" src="pagination.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.7.0/dist/jquery.min.js"></script>
 
 </body>
 

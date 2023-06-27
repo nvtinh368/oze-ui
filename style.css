@@ -173,6 +173,23 @@ p {
     border: 1px solid white;
 }
 
+
+.proxyM select{
+    height: 30px; 
+    background-color: #233344; 
+    color: white; 
+    padding: 5px;
+    border: 1px solid white;
+}
+
+.proxyM input{
+    height: 30px; 
+    background-color: #233344; 
+    color: white; 
+    padding: 8px;
+    border: 1px solid white;
+}
+
 .form-group span i{
   color: white;
 }

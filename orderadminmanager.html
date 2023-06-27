@@ -26,49 +26,35 @@
             <ul>
                 <li>
                     
-                    <a href="order.html">
+                    <a href="proxymanager.html">
                        <span style="height: 15px;width: 2px; background-color: #253649; display: inline-block; margin-right: 3px;"></span>
                         <span class="icon"><i class="fas fa-shopping-cart me-2"></i></span>
-                        <span class="title">Đặt hàng</span>
+                        <span class="title">Quản lý proxy</span>
                     </a>
                 </li>
                 <li>
-                    <a href="ordermanager.html">
+                    <a href="orderadminmanager.html">
                          <span style="height: 15px;width: 2px; background-color: #009ef7; display: inline-block; margin-right: 3px;"></span>
                         <span class="icon"><i class="fas fa-th-list me-2"></i></span>
-                        <span class="title">Quản lý đơn hàng</span>
+                        <span class="title">Quản lý order</span>
                     </a>
                 </li>
                 <li>
-                    <a href="payment.html">
+                    <a href="usermanager.html">
+                         <span style="height: 15px;width: 2px; background-color: #009ef7; display: inline-block; margin-right: 3px;"></span>
+                        <span class="icon"><i class="fas fa-th-list me-2"></i></span>
+                        <span class="title">Quản lý người dùng</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="paymentmanager.html">
                          <span style="height: 15px;width: 2px; background-color: #253649; display: inline-block; margin-right: 3px;"></span>
                         <span class="icon"><i class="fas fa-credit-card me-2"></i></span>
-                        <span class="title">Nạp tiền</span>
+                        <span class="title">Quản lý giao dịch</span>
                     </a>
                 </li>
                 <li>
-                    <a href="">
-                         <span style="height: 15px;width: 2px; background-color: #253649; display: inline-block; margin-right: 3px;"></span>
-                        <span class="icon"><i class="fas fa-link me-2"></i></span>
-                        <span class="title">Tích hợp API</span>
-                    </a>
-                </li>
-                <li>
-                    <a href="">
-                         <span style="height: 15px;width: 2px; background-color: #253649; display: inline-block; margin-right: 3px;"></span>
-                        <span class="icon"><i class="fas fa-chalkboard-teacher me-2"></i></span>
-                        <span class="title">Hướng dẫn sử dụng</span>
-                    </a>
-                </li>
-                <li>
-                    <a href="support.html">
-                         <span style="height: 15px;width: 2px; background-color: #253649; display: inline-block; margin-right: 3px;"></span>
-                        <span class="icon"><i class="fas fa-headset me-2"></i></span>
-                        <span class="title">Hỗ trợ</span>
-                    </a>
-                </li>
-                <li>
-                    <a href="setup.html">
+                    <a href="setupmanager.html">
                          <span style="height: 15px;width: 2px; background-color: #253649; display: inline-block; margin-right: 3px;"></span>
                         <span class="icon"><i class="fas fa-tools me-2"></i></span>
                         <span class="title">Cài đặt</span>
@@ -101,61 +87,61 @@
         <div class="main-dashboard">
             <div  style="margin: 20px;">
                 <div class="container-fluid p-3 bg-section-light rounded">
+
+                    <div class="row" >
+                        <h4 class="text-center">QUẢN LÝ DANH SÁCH ORDER</h4>
+                        
+                       
+                        
+                    </div>
                     <div class="row">
                         <div class="col-12">
                             <div class=" rounded p-2" style="overflow-x: auto;white-space: nowrap;">
-                                <h4 class="text-center">DANH SÁCH ĐẶT HÀNG</h4>
-                                <table class="table text-center rounded mt-3" style="border: 1px solid gray ; color:white;">
+                                
+                                <div class="proxyM">
+                                        <select class="rounded">
+                                            <option value="ip">Tất cả</option>
+                                             <option value="ip">OrderID</option>
+                                             <option value="ip">UserID</option>
+                                             <option value="order">Danh sách order hết hạn</option>
+                                             <option value="order">Danh sách order sắt hết hạn</option>
+                                         </select>
+                                        <input type="" name="">
+                                        <button type="button" class="btn btn-primary btn-sm py-0">search</button>
+                                        <span> (bỏ trống là tím tất cả)</span>
+                                </div>        
+                            
+                                <table class="table text-center rounded mt-1" style="border: 1px solid gray ; color:white;">
                                     <thead>
-                                        <th>Order ID</th>
-                                        <th>Số lượng</th>
-                                        <th>Quốc gia</th>
-                                        <th>Ngày mua</th>
+                                        <th>OrderID</th>
+                                        <th>Số lượng proxy</th>
+                                        <th>Tổng tiền</th>
+                                        <th>Ngày đăng ký</th>
                                         <th>Ngày hết hạn</th>
+                                        <th>UserID</th>
                                         <th>Chi tiết</th>
                                     </thead>
+                            
                                     <tbody>
-                                        <th>528254545</th>
+                                        <th>82347234234</th>
                                         <th>1000</th>
-                                        <th>VN</th>
-                                        <th>23-5-2023</th>
+                                        <th>4000000</th>
                                         <th>23-6-2023</th>
+                                        <th>23-7-2023</th>
+                                        <th>35645645645</th>
                                         <th>
-                                            <a class="btn btn-primary" href="#" role="button">Chi tiết</a>
-                                            <a class="btn btn-extend" href="#" role="button">Gia hạn</a>
+                                            <a class="btn btn-primary" href="#" role="button">Sửa</a>
                                         </th>
                                     </tbody>
-                                    <tbody>
-                                        <th>528254545</th>
+                                  <tbody>
+                                        <th>82347234234</th>
                                         <th>1000</th>
-                                        <th>VN</th>
-                                        <th>23-5-2023</th>
+                                        <th>4000000</th>
                                         <th>23-6-2023</th>
+                                        <th>23-7-2023</th>
+                                        <th>35645645645</th>
                                         <th>
-                                            <a class="btn btn-primary" href="#" role="button">Chi tiết</a>
-                                            <a class="btn btn-extend" href="#" role="button">Gia hạn</a>
-                                        </th>
-                                    </tbody>
-                                    <tbody>
-                                        <th>528254545</th>
-                                        <th>1000</th>
-                                        <th>VN</th>
-                                        <th>23-5-2023</th>
-                                        <th>23-6-2023</th>
-                                        <th>
-                                            <a class="btn btn-primary" href="#" role="button">Chi tiết</a>
-                                            <a class="btn btn-extend" href="#" role="button">Gia hạn</a>
-                                        </th>
-                                    </tbody>
-                                    <tbody>
-                                        <th>528254545</th>
-                                        <th>1000</th>
-                                        <th>VN</th>
-                                        <th>23-5-2023</th>
-                                        <th>23-6-2023</th>
-                                        <th>
-                                            <a class="btn btn-primary" href="#" role="button">Chi tiết</a>
-                                            <a class="btn btn-extend" href="#" role="button">Gia hạn</a>
+                                            <a class="btn btn-primary" href="#" role="button">Sửa</a>
                                         </th>
                                     </tbody>
                                 </table>
